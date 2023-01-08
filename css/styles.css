@@ -19,6 +19,18 @@ body {
 
 /*Logo*/
 
+.web {
+    color: var(--focus-color)
+}
+
+.header-logo .studio {
+color: var(--title-color);
+}
+
+.footer-logo .studio {
+    color: var(--secondary-color);
+}
+
 /*Site nav*/
 
 .list a {
@@ -128,7 +140,7 @@ color: var(--title-color);
     color: var(--focus-color);
 }
 
-/*Projects gallery*/
+/*Projects*/
 
 .project .project-title {
     color: var(--title-color);
