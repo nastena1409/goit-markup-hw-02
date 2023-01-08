@@ -130,6 +130,6 @@ color: var(--title-color);
 
 /*Projects gallery*/
 
-.project .project-name {
+.project .project-title {
     color: var(--title-color);
 }
