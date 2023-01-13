@@ -32,6 +32,7 @@ body {
     line-height: 1.3;
 
     text-decoration: none;
+    text-transform: uppercase;
 }
 
 .footer-logo {
@@ -39,6 +40,9 @@ body {
     font-weight: 800;
     font-size: 18px;
     line-height: 1.16;
+
+    text-decoration: none;
+    text-transform: uppercase;
 }
 
 .web {
@@ -100,6 +104,12 @@ body {
     text-decoration: none;
 }
 
+/*Adress*/
+
+.adress {
+    font-style: normal;
+}
+
 /*Hero*/
 .hero {
     background-color: var(--dark);
@@ -113,6 +123,7 @@ body {
     letter-spacing: 0.02em;
 
     text-align: center;
+    text-transform: uppercase;
     
 }
 
@@ -122,13 +133,16 @@ body {
     color: var(--white);
     background-color: var(--primary-brand);
 
+    font-family: inherit;
     font-weight: 600;
     font-size: 16px;
     line-height: 1.19;
     letter-spacing: 0.04em;
      
     border: transparent;
+    font-family: inherit;
 }
+
 
 .features-title, .work-title, .team-title, .portfolio-title {
     color: var(--dark);
@@ -179,6 +193,7 @@ body {
     color: var(--primary-brand);
     background-color: var(--light); 
     
+    font-family: inherit;
     font-weight: 600;
     font-size: 16px;
     line-height: 1.5;
